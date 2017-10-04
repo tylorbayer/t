@@ -1,0 +1,7 @@
+{% extends "lis_time_series/base.html" %}
+{% load tethys_gizmos %}
+
+{% block app_content %}
+  <h1>Forecast</h1>
+  {% gizmo lis_time_series_plot %}
+{% endblock %}
